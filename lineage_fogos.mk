@@ -31,14 +31,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 TARGET_ENABLE_BLUR := true
 AXION_CAMERA_REAR_INFO := 50,2
 AXION_CAMERA_FRONT_INFO := 16
-AXION_MAINTAINER := tiraq
+AXION_MAINTAINER := Aditya
 AXION_PROCESSOR := Snapdragon_6s_Gen_3
 
 # Enable or disable ScrollOptimizer globally
 persist.sys.perf.scroll_opt = true
-
-# Heavy app handling mode
-# 0 - Disable heavy app classification
-# 1 - Enable dynamic detection (based on frame duration and buffer load)
-# 2 - Treat all apps as heavy for performance
-persist.sys.perf.scroll_opt.heavy_app = 1
