@@ -129,6 +129,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DolbyAtmos
 
+# Lunaris Maintainer prop
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.lunaris.maintainer=Aditya
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
