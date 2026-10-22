@@ -27,10 +27,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35M.75-14-9-3-1-2/9dc92:user/release-keys \
     DeviceProduct=fogos_g
 
-# Axion Stuff
-TARGET_INCLUDE_AXFX := true
-TARGET_ENABLE_BLUR := true
-AXION_CAMERA_REAR_INFO := 50,2
-AXION_CAMERA_FRONT_INFO := 16
-AXION_MAINTAINER := Aditya
-AXION_PROCESSOR := Snapdragon_695
