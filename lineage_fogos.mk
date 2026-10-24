@@ -27,3 +27,16 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35M.75-14-9-3-1-2/9dc92:user/release-keys \
     DeviceProduct=fogos_g
 
+
+# ---- Lunaris flags -------------------------------------------------------
+# These are what tiraq-official@lunaris has and adi6545@Lunaris lacks.
+LUNARIS_BUILD_TYPE := UNOFFICIAL
+WITH_GMS := true
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+TARGET_ENABLE_BLUR := true
+TARGET_DISABLE_MATLOG := true
+WITH_PIXEL_LAUNCHER := false
+WITH_BCR := true
+SURFACE_FLINGER_BOOST := true
