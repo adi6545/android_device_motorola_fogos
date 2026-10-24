@@ -27,3 +27,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35M.75-14-9-3-1-2/9dc92:user/release-keys \
     DeviceProduct=fogos_g
 
+# ---- Lunaris flags -------------------------------------------------------
+TARGET_BOOT_ANIMATION_RES := 720
