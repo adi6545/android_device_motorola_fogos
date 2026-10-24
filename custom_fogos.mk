@@ -14,7 +14,7 @@ $(call inherit-product, device/motorola/fogos/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_fogos
+PRODUCT_NAME := custom_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
@@ -27,10 +27,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35M.75-14-9-3-1-2/9dc92:user/release-keys \
     DeviceProduct=fogos_g
 
-# Axion Stuff
-TARGET_INCLUDE_AXFX := true
-TARGET_ENABLE_BLUR := true
-AXION_CAMERA_REAR_INFO := 50,2
-AXION_CAMERA_FRONT_INFO := 16
-AXION_MAINTAINER := Aditya
-AXION_PROCESSOR := Snapdragon_695
