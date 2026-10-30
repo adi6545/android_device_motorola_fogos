@@ -208,7 +208,7 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from proprietary files for motocamera
--include vendor/motorola/motocamera/BoardConfigMotoCamera.mk
+#-include vendor/motorola/motocamera/BoardConfigMotoCamera.mk
 
 # inherit from the proprietary version
 include vendor/motorola/fogos/BoardConfigVendor.mk
