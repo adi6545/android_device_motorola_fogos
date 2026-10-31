@@ -130,7 +130,7 @@ PRODUCT_PACKAGES += \
 
 # Dolby
 PRODUCT_PACKAGES += \
-    DolbyAtmos
+    LunarisDolby
 
 # Lunaris Maintainer prop
 PRODUCT_SYSTEM_PROPERTIES += \
