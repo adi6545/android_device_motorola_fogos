@@ -29,3 +29,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # ---- Lunaris flags -------------------------------------------------------
 TARGET_BOOT_ANIMATION_RES := 720
+WITH_GMS := true
+TARGET_ENABLE_BLUR := true
+TARGET_DISABLE_MATLOG := true
